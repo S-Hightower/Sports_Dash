@@ -1,3 +1,3 @@
-from flask import Flask, render_template, redirect, session
+from flask import Flask
 app = Flask(__name__)
-app.secret_key='keep is secret, keep it safe'
+app.secret_key='keep it secret, keep it safe'
