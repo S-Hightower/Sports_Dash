@@ -8,7 +8,7 @@
 <h3 align="center">Sports Dash: Football Edition ⚽</h3>
 
   <p align="center">
-    A work-in-progress web application to allow users to view livescores and get information about teams and leagues.
+    A work-in-progress web application to allow users to view livescores and get information about the top 10 most watched leagues 2020 season.
   </p>
 </div>
 
