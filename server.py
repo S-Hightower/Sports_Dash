@@ -3,8 +3,6 @@ from flask import Flask, render_template
 import requests
 from requests import Session
 
-import secrets
-
 app = Flask(__name__)
 
 @app.route('/')
