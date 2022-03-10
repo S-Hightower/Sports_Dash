@@ -32,11 +32,11 @@
 
 <div align="center">
   <a href="https://github.com/S-Hightower/Sports_Dash">
-    <img src="/images/demo1.png" alt="demo of returned values" width="400" height="400">
+    <img src="/images/demo1.png" alt="demo of returned values" width="300" height="300">
   </a>
 
   <a href="https://github.com/S-Hightower/Sports_Dash">
-    <img src="/images/demo2.png" alt="demo of returned values" width="400" height="400">
+    <img src="/images/demo2.png" alt="demo of returned values" width="300" height="300">
   </a>
 </div>
 
