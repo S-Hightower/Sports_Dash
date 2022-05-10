@@ -16,3 +16,7 @@
 a {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+.navbar-toggler-icon {
+    background-color: blanchedalmond;
+}
