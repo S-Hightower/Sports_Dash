@@ -8,7 +8,39 @@
 <h3 align="center">Sports Dash: Football Edition ⚽</h3>
 
   <p align="center">
-    A work-in-progress web application to allow users to view livescores and get information about the top 10 most watched leagues 2020 season.
+    A work-in-progress web application to allow users to view livescores, fixtures, and get information about the top 10 most watched leagues.
+  </p>
+
+<h4 align="center">Leagues Currently Viewable:</h4>
+  <p align="center">
+    📍 Us's Major League Soccer 📍
+  </p>
+  <p align="center">
+    📍 England's Premier League 📍
+  </p>
+  <p align="center">
+    📍 Germany's Bundesliga 📍
+  </p>
+  <p align="center">
+    📍 Brazil's Serie A 📍
+  </p>
+  <p align="center">
+    📍 Argentina's Primera Division 📍
+  </p>
+  <p align="center">
+    📍 Italy's Serie A 📍
+  </p>
+  <p align="center">
+    📍 Spain's La Liga 📍
+  </p>
+  <p align="center">
+    📍 France's Ligue 1 📍
+  </p>
+  <p align="center">
+    📍 Netherland's Eredivisie 📍
+  </p>
+  <p align="center">
+    📍 Mexico's Liga MX 📍
   </p>
 </div>
 
@@ -17,16 +49,13 @@
 
 * Python
 * Flask
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+* Bootstrap
 
 <!-- USAGE EXAMPLES -->
 ## Future Updates
 
 * Creating other language versions
 * Refining the available search criteria
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Demo
 
