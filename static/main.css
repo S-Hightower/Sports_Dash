@@ -4,19 +4,15 @@
 }
 
 .container {
-    background-color: #fcfbe7;
+    background-color: #0F2D37;
     max-width: 100vw;
     min-height: 100vh;
 }
 
 .header {
-    background-color: #9fd3da;
-    max-width: 100vw;
-    min-height: 3.5rem;
+    margin-bottom: 2rem;
 }
 
-h2 {
+a {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #05484f;
-    padding: .5rem;
 }

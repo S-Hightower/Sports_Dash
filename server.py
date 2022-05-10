@@ -6,6 +6,10 @@ app = Flask(__name__)
 def main():
     return render_template('index.html')
 
+@app.route('/fixtures')
+def fixtures():
+    return render_template('fixtures.html')
+
 @app.route('/premier')
 def premier():
     return render_template('premier.html')
