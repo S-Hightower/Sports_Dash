@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/static/api-football.css">
     <link rel="stylesheet" href="/static/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&display=swap" rel="stylesheet">
     <title>Brazilian Serie A Standings</title>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -21,64 +25,60 @@
                 <div class="container-fluid">
                     <a class="navbar-brand" style="color: blanchedalmond;" href="/">Sports Dash</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/fixtures">Fixtures</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/premier">Premier League</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/laliga">La Liga</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/ligueone">Ligue One</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/brasil">Brazil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/mls">MLS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/bundesliga">Bundesliga</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/italia">Italia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/eredivisie">Eredivisie</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/argentina">Argentina</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blanchedalmond;" href="/mexico">Mexico</a>
-                        </li>
-                    </ul>
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/fixtures">Fixtures</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/premier">Premier League</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/laliga">La Liga</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/ligueone">Ligue One</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/brasil">Brazil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/mls">MLS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/bundesliga">Bundesliga</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/italia">Italia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/eredivisie">Eredivisie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/argentina">Argentina</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: blanchedalmond;" href="/mexico">Mexico</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-        <div id="wg-api-football-standings"
-        data-host="v3.football.api-sports.io"
-        data-league="71"
-        data-team=""
-        data-season="2020"
-        data-key="3c8b77d66d8b724190d069680fbd36d9"
-        data-theme="false"
-        data-show-errors="false"
-        class="api_football_loader">
+            </nav>
+        </div>
+        <div>
+            <h1>Serie A | Season: 2021 </h1>
+        </div>
+        <div id="wg-api-football-standings" data-host="v3.football.api-sports.io" data-league="71" data-team=""
+            data-season="2021" data-key="3c8b77d66d8b724190d069680fbd36d9" data-theme="false" data-show-errors="false"
+            class="api_football_loader">
         </div>
     </div>
-    <script
-        type="module"
-        src="https://widgets.api-sports.io/football/1.1.8/widget.js">
+    <script type="module" src="https://widgets.api-sports.io/football/1.1.8/widget.js">
     </script>
 </body>
+
 </html>
