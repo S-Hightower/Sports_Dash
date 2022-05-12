@@ -8,7 +8,7 @@
 <h3 align="center">Sports Dash: Football Edition ⚽</h3>
 
   <p align="center">
-    A work-in-progress web application to allow users to view livescores, fixtures, and get information about the top 10 most watched leagues.
+    A work-in-progress responsive web application to allow users to view livescores, fixtures, and get information about the top 10 most watched leagues in either a full screen or minimized.
   </p>
 
 <h4 align="center">Leagues Currently Viewable:</h4>
@@ -59,10 +59,15 @@
 * Refining the available search criteria
 
 ## Demo
-
+<div align="center">
+  <h4>Video is a demo of minimized app in use.</h4>
+</div>
 
 https://user-images.githubusercontent.com/78988961/167972457-1f3825d5-03cd-4094-bac2-5317b311f9ca.mp4
 
+<div align="center">
+  <h4>Screenshots are of the full sized app.</h4>
+</div>
 
 <div align="center">
 <img src="/images/demo1.png" alt="demo of returned values" width="300" height="300">
