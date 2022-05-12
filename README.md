@@ -75,6 +75,10 @@ https://user-images.githubusercontent.com/78988961/167972457-1f3825d5-03cd-4094-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
 ## Feedback
 
 <a href="https://forms.gle/yW9kJtsQR9Msyn4q9">Click here for feedback form!</a>
