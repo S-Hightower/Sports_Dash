@@ -65,21 +65,10 @@ https://user-images.githubusercontent.com/78988961/167972457-1f3825d5-03cd-4094-
 
 
 <div align="center">
-  <a href="https://github.com/S-Hightower/Sports_Dash">
-    <img src="/images/demo1.png" alt="demo of returned values" width="300" height="300">
-  </a>
-
-  <a href="https://github.com/S-Hightower/Sports_Dash">
-    <img src="/images/demo2.png" alt="demo of returned values" width="300" height="300">
-  </a>
-
-  <a href="https://github.com/S-Hightower/Sports_Dash">
-    <img src="/images/demo3.png" alt="demo of returned values" width="300" height="300">
-  </a>
-
-  <a href="https://github.com/S-Hightower/Sports_Dash">
-    <img src="/images/demo4.png" alt="demo of returned values" width="300" height="300">
-  </a>
+<img src="/images/demo1.png" alt="demo of returned values" width="300" height="300">
+<img src="/images/demo2.png" alt="demo of returned values" width="300" height="300">
+<img src="/images/demo3.png" alt="demo of returned values" width="300" height="300">
+<img src="/images/demo4.png" alt="demo of returned values" width="300" height="300">
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
