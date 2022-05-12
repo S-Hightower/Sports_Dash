@@ -13,7 +13,7 @@
 
 <h4 align="center">Leagues Currently Viewable:</h4>
   <p align="center">
-    📍 Us's Major League Soccer 📍
+    📍 US's Major League Soccer 📍
   </p>
   <p align="center">
     📍 England's Premier League 📍
@@ -59,7 +59,11 @@
 
 ## Demo
 
-<div align="center">
+
+https://user-images.githubusercontent.com/78988961/167972457-1f3825d5-03cd-4094-bac2-5317b311f9ca.mp4
+
+
+<!-- <div align="center">
   <a href="https://github.com/S-Hightower/Sports_Dash">
     <img src="/images/demo1.png" alt="demo of returned values" width="300" height="300">
   </a>
@@ -67,7 +71,7 @@
   <a href="https://github.com/S-Hightower/Sports_Dash">
     <img src="/images/demo2.png" alt="demo of returned values" width="300" height="300">
   </a>
-</div>
+</div> -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
