@@ -50,6 +50,7 @@
 * Python
 * Flask
 * Bootstrap
+* API-Football
 
 <!-- USAGE EXAMPLES -->
 ## Future Updates
